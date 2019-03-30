@@ -16,11 +16,19 @@ def hello1(nom):
 	"""Retourne Bonjour nom """
 	#~app1 = xw.App()
 	m = 1
+	return 'Dobar dan {1}  {0}'.format(nom,m)
+	
+
+
+
+@xw.func
+def hello2():		
+	"""Retourne Bonjour nom """
+	#~app1 = xw.App()	
 	#return 'Bonjour {1}  {0}'.format(nom,m)
 	return mf.proba()
-
 
 # print(probag())
 # print(mf.proba())
 
-print(probaNEW())
+# print(probaNEW())
